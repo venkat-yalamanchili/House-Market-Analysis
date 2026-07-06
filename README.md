@@ -1,4 +1,4 @@
-# Housing Market Intelligence Dashboard
+# Housing Market Analysis
 
 ![Housing Market Intelligence Banner](assets/00_project_banner.png)
 
@@ -227,49 +227,6 @@ For larger teams, the same design can be extended to dynamic security using a us
 
 ---
 
-## Recommended Repository Structure
-
-```text
-housing-market-intelligence-dashboard/
-|
-|-- README.md
-|-- data/
-|   |-- Housing Data.csv
-|   |-- Housing Data Column Definitions.xlsx
-|
-|-- notebooks/
-|   |-- Housing_Market_EDA.ipynb
-|
-|-- powerbi/
-|   |-- House_Market_Dashboard.pbix
-|
-|-- reports/
-|   |-- house_market_dashboard.pdf
-|   |-- Housing_Market_Project_Report.pdf
-|
-|-- assets/
-|   |-- 00_project_banner.png
-|   |-- 01_house_market_overview.png
-|   |-- 02_sales_performance_overview.png
-|   |-- 03_property_type_pricing.png
-|   |-- 04_architecture.png
-```
-
----
-
-## How to Reproduce
-
-1. Load the housing dataset into **MS SQL Server**.
-2. Connect Power BI Desktop to the SQL Server table or view.
-3. Apply Power Query transformations and create a calendar/date table.
-4. Build the semantic model and page-level measure tables.
-5. Create dashboard pages for market overview, sales performance, and property-type pricing.
-6. Configure incremental refresh using `RangeStart` and `RangeEnd` date parameters.
-7. Publish to Power BI Service.
-8. Configure and test RLS roles.
-9. Validate insights against the EDA notebook.
-
----
 
 ## Tools and Skills Demonstrated
 
